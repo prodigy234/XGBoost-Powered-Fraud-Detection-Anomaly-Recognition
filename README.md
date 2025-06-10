@@ -5,6 +5,10 @@ This project is a synthetic fraud detection system built using Python, Streamlit
 
 ---
 
+This highly smart fraud detector which I developed can be accessed live on streamlit [Here](https://smart-fraud-detector.streamlit.app/)
+
+---
+
 ## 📬 Author
 
 **Gbenga Kajola**
