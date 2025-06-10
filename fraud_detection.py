@@ -86,5 +86,23 @@ def main():
     if st.checkbox("Show Sample Data"):
         st.write(data.head())
 
+    # Footer
+    st.markdown("---")
+    st.markdown("# 👨‍💻 About the Developer")
+    st.markdown("## **Kajola Gbenga**")
+
+    st.markdown(
+        """
+    📇 Certified Data Analyst | Certified Data Scientist | Certified SQL Programmer | Mobile App Developer | AI/ML Engineer
+
+    🔗 [LinkedIn](https://www.linkedin.com/in/kajolagbenga)  
+    📜 [View My Certifications & Licences](https://www.datacamp.com/portfolio/kgbenga234)  
+    💻 [GitHub](https://github.com/prodigy234)  
+    🌐 [Portfolio](https://kajolagbenga.netlify.app/)  
+    📧 k.gbenga234@gmail.com
+    """
+    )
+
+
 if __name__ == "__main__":
     main()
