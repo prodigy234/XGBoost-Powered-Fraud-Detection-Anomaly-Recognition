@@ -52,8 +52,8 @@ This highly smart fraud detector which I developed can be accessed live on strea
 ## 🛠️ Installation
 
 ```bash
-git clone <your-repo-url>
-cd <your-project-directory>
+git clone https://github.com/prodigy234/XGBoost-Powered-Fraud-Detection-Anomaly-Recognition.git
+cd XGBoost-Powered Fraud Detection Anomaly Recognition
 pip install -r requirements.txt
 ```
 
@@ -70,8 +70,9 @@ streamlit run app.py
 ## 📂 Project Structure
 
 ```
-.
+📁 XGBoost-Powered Fraud Detection Anomaly Recognition/
 ├── fraud_detection.py                 # Main Streamlit application file
+├── my_image.jpg                       # My image
 ├── scaler.pkl                         # Saved StandardScaler object
 ├── xgb_model.pkl                      # Trained XGBoost model
 ├── README.md                          # Project documentation
@@ -126,13 +127,6 @@ The model is trained and evaluated using:
 - `roc_auc_score`
 
 Due to the synthetic and imbalanced nature of the data (1% fraud), evaluation metrics should be interpreted accordingly.
-
----
-
-## 🤖 Author
-
-Developed by [Your Name].  
-For educational and demonstration purposes.
 
 ---
 

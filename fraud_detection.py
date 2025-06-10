@@ -90,7 +90,7 @@ def main():
     st.markdown("---")
     st.markdown("# About the Developer")
     # Display developer image
-    st.image("my_image.jpg", width=100)
+    st.image("my_image.jpg", width=150)
     st.markdown("## **Kajola Gbenga**")
 
     st.markdown(
